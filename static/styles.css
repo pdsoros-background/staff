@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "marian";
+    src: url("fonts/MarianText-1554Roman-Web.woff") format('woff');
+}
+
+@font-face {
+    font-family: "marian-italic";
+    src: url("fonts/MarianText-1800Italic-Web.woff") format('woff');
+    font-weight: italic;
+}
+
+header {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 115px;
+}
+
+.pd-logo--large {
+    width: 100%;
+}
+
+.doc {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1rem;
+    line-height: 1.5;
+    color: #20303f;
+}
+
+body {
+    background: #f5f3efff;
+    color: #181a1c;
+    font-size: 100%;
+    font-family: 'Roboto Condensed',Roboto,sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: marian, serif;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+}
+
+#cvshd,
+#cvs,
+#downloadlink {
+    display: none;
+}
+
+form {
+    max-width: 800px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.side-by-side {
+    display: inline-block;
+    width: 48%;
+    max-width: 400px;
+}
+
+.label-side {
+    display: block;
+    max-width: 400px;
+}
+
+input[type=text],
+select {
+    all: unset;
+    display: block;
+    font-family: inherit;
+    border-bottom: 2px solid #ccc;
+    height: 56px;
+    min-height: 56px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+input[type=text]:hover,
+select:hover {
+    border-bottom-color: #181a1c;
+}
+
+select {
+    display: flex;
+    align-items: flex-end;
+}
+
+.arrow-icon {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-10px);
+    color: #db7474;
+    z-index: -1;
+}
+
+.down-arrow {
+    position: relative;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#bkgimg {
+    margin: 2rem 0;
+    max-width: 100%
+}
+
+#bkgimg img {
+    width: 100%;
+    max-width: 800px;
+}
+
+#ratioOptions:hover #ratioTooltip {
+    display: block;
+}
+
+#ratioTooltip {
+    display: none;
+    background: #f1f4f7;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    width: 200px;
+    height: auto;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+.a-btn {
+    font-weight: 600;
+    width: 100%;
+    max-width: 800px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Roboto Condensed',Roboto,sans-serif;
+    font-size: inherit;
+    color: #ffffff;
+    background-color: #20303f;
+    border: none;
+}
